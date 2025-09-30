@@ -1,6 +1,6 @@
 @Library ('Jenkins-Shared-Library')_
 pipeline {
-    agent any{
+    agent any
         stages{
             stage('Build'){
                 steps{
@@ -13,5 +13,5 @@ pipeline {
 
             }
         }
-    }
+    
 }
