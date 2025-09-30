@@ -9,9 +9,6 @@ pipeline {
                     }
                 }
             }
-            stage('Deploy'){
-
-            }
         }
     
 }
